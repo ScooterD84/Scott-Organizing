@@ -1,1 +1,96 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me | Scott Organizing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background-color: #f4f6f8;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+
+    .about-wrapper {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+    }
+
+    .text-section {
+      flex: 1;
+    }
+
+    .text-section h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #0077cc;
+    }
+
+    .text-section p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .image-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    }
+
+    @media (max-width: 768px) {
+      .about-wrapper {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .text-section, .image-section {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="about-wrapper">
+      <div class="text-section">
+        <h1>About Me</h1>
+        <p>Hi there! My name is Scott. I've always had a knack for organizing, and over the past 2 years I've taken that skill and used it to help others. 
+        I've transformed bedrooms, kitchens, living rooms, basements, and storage rooms, and helped improve the lives of various people in the process.</p>
+        <p>Outside of organizing, I recently graduated from Miami University as a Supply Chain major, am a total geek about technology (I even fix computers on the side), 
+        am a car person (my dream car is a Maserati MC20), and watch a lot of anime.</p>
+        <div class="back-link">
+          <a href="/">← Back to Home</a>
+        </div>
+      </div>
+      <div class="image-section">
+        <img src="IMG_5856.JPEG" alt="Photo of Scott">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
